@@ -1,0 +1,11 @@
+body {margin: 0; padding: 30px; background-color: #ecf8fc; font-family: Arial, Helvetica, sans-serif}
+.cabecalho {border: 3px solid #3730a3; padding: 30px; background-color: #5b21b6; color: #ffffff; text-align: center}
+.cabecalho h1 {margin: 10px}
+.conteudo {margin-top: 25px; border: 2p solid #c7d2fe; padding: 25px; background-color: #ffffff; border: 2px solid #e3d9ff}
+.sobre {border: 2px solid #818cf8; padding: 20px; background-color: #f4ecfc;}
+.sobre h2 {color: #818cf8}
+.destaque {color: #b81414}
+.habilidades {margin-top: 25px; border: 2px solid #a78bfa; padding: 20px; background-color: #f4ecfc}
+.habilidades h2 {color: #a78bfa}
+.habilidades span {margin: 5px; border: 2px solid #5b21b6; padding: 8px; display: inline-block; background-color: #a939ff; color: #ffffff}
+.rodape {margin-top: 25px; padding: 20px; background-color: #24044c; color: #ffffff; text-align: center}
