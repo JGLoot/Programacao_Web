@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">Titulo</h1>
+    <p id="paragrafo">lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <button id="botao">Botão do Matheus</button>
+
+    <div id="mensagem"></div>
+
+    <form action="https://api.sheetmonkey.io/form/nXucDaEFKNqTQHkPPHZUTz" method="post">
+    <label>Your Name: <input type="text" name="Name" required /></label>
+    <input type="submit" value="Submit" />
+    </form>
+
+    <script>
+        const botao = document.getElementById('botao');
+        const mensagem = document.getElementById('mensagem');
+        const titulo = document.getElementById('titulo');
+        const paragrafo = document.querySelector('#paragrafo');
+        const paragrafo2 = document.querySelector('p');
+
+        titulo.style.color = 'red';
+        paragrafo.style.color = 'blue';
+
+        botao.addEventListener('click', function() {
+            mensagem.innerHTML = 'Você clicou no botão do Matheus!';
+            mensagem.style.color = 'green';
+            paragrafo.style.color = 'purple';
+            titulo.style.color = 'orange';
+        });
+    </script>
+</body>
+</html>
