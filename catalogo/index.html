@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Interativo de Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Produtos</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Pesquisar produtos por nome...">
+            <button id="searchBtn">Pesquisar</button>
+        </div>
+    </header>
+    <main>
+        <div id="statusMessage" class="status-message"></div>
+        
+        <section class="catalog-section">
+            <h2>Produtos Disponíveis</h2>
+            <div id="productGrid" class="grid"></div>
+        </section>
+
+        <section class="favorites-section">
+            <h2>Os Meus Favoritos</h2>
+            <div id="favoritesGrid" class="grid"></div>
+        </section>
+    </main>
+
+    <!-- Modal para Detalhes do Produto -->
+    <div id="productModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modalDetails"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
